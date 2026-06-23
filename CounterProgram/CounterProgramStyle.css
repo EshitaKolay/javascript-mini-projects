@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(226, 250, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#headerContent{
+    background-color: rgb(213, 231, 252);
+    border-radius: 20px;
+    margin: 1.5em;
+}
+#MyH1{
+    text-align: center;
+    font-size: 4em;
+    color: #040549;
+  
+}
+
+#displayBox{
+    background-color: rgba(45, 181, 236, 0.744);
+    height: 15em;
+    width: 25em;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.box{
+    margin: 2em;
+    border-color: rgb(5, 44, 70);
+    border-style: groove;
+}
+
+#countLable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color:white;
+    background-color: rgb(8, 85, 118);
+    border-radius: 50em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(183, 222, 239);
+    border-color: rgb(66, 121, 147);
+    color: rgb(105, 105, 105);
+}
